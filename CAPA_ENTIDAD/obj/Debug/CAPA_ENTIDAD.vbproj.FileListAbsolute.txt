@@ -1,0 +1,9 @@
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_ENTIDAD\bin\Debug\CAPA_ENTIDAD.dll
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_ENTIDAD\bin\Debug\CAPA_ENTIDAD.pdb
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_ENTIDAD\bin\Debug\CAPA_ENTIDAD.xml
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_ENTIDAD\obj\Debug\ResolveAssemblyReference.cache
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_ENTIDAD\obj\Debug\CAPA_ENTIDAD.Resources.resources
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_ENTIDAD\obj\Debug\CAPA_ENTIDAD.vbproj.GenerateResource.Cache
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_ENTIDAD\obj\Debug\CAPA_ENTIDAD.dll
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_ENTIDAD\obj\Debug\CAPA_ENTIDAD.xml
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_ENTIDAD\obj\Debug\CAPA_ENTIDAD.pdb

@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{41B8EFE5-3A6A-4382-B050-A4D06232E08C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CAPA_PRESENTACION</RootNamespace>
+    <AssemblyName>CAPA_PRESENTACION</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>CAPA_PRESENTACION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>CAPA_PRESENTACION.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="administrator\perfil.aspx" />
+    <Content Include="Cat.aspx" />
+    <Content Include="administrator\Default.aspx" />
+    <Content Include="css\style.css" />
+    <Content Include="css\US101.html" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\breadcrumb-home.gif" />
+    <Content Include="images\breadcrumb-seperator.png" />
+    <Content Include="images\cart-icon-white.png" />
+    <Content Include="images\cart-icon.png" />
+    <Content Include="images\cat-expanded-icon.png" />
+    <Content Include="images\cat-menu-arrow-hover.png" />
+    <Content Include="images\cat-menu-arrow.png" />
+    <Content Include="images\checkout-icon.png" />
+    <Content Include="images\details-arrow.png" />
+    <Content Include="images\fb-icon.png" />
+    <Content Include="images\list-type-block.png" />
+    <Content Include="images\list-type-row.png" />
+    <Content Include="images\lock-icon.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\next-button-hover.png" />
+    <Content Include="images\next-button.png" />
+    <Content Include="images\payment-bg.png" />
+    <Content Include="images\paypal-cards.jpg" />
+    <Content Include="images\previous-button-hover.png" />
+    <Content Include="images\previous-button.png" />
+    <Content Include="images\product-image-big.jpg" />
+    <Content Include="images\product-image-small.jpg" />
+    <Content Include="images\producto\user1.jpg" />
+    <Content Include="images\producto\user10.jpg" />
+    <Content Include="images\producto\user11.jpg" />
+    <Content Include="images\producto\user12.jpg" />
+    <Content Include="images\producto\user13.jpg" />
+    <Content Include="images\producto\user14.jpg" />
+    <Content Include="images\producto\user15.jpg" />
+    <Content Include="images\producto\user16.jpg" />
+    <Content Include="images\producto\user17.jpg" />
+    <Content Include="images\producto\user18.jpg" />
+    <Content Include="images\producto\user2.jpg" />
+    <Content Include="images\producto\user3.jpg" />
+    <Content Include="images\producto\user4.jpg" />
+    <Content Include="images\producto\user5.jpg" />
+    <Content Include="images\producto\user6.jpg" />
+    <Content Include="images\producto\user7.jpg" />
+    <Content Include="images\producto\user8.jpg" />
+    <Content Include="images\producto\user9.jpg" />
+    <Content Include="images\rating-stars.png" />
+    <Content Include="images\search-button.png" />
+    <Content Include="images\share-buttons.png" />
+    <Content Include="images\skype-icon.png" />
+    <Content Include="images\slideshow1.jpg" />
+    <Content Include="images\slideshow2.jpg" />
+    <Content Include="images\slideshow3.jpg" />
+    <Content Include="images\slideshowlarge1.jpg" />
+    <Content Include="images\slideshowlarge2.jpg" />
+    <Content Include="images\slideshowlarge3.jpg" />
+    <Content Include="images\steps-bg.png" />
+    <Content Include="images\twiter-icon.png" />
+    <Content Include="images\user-menu-arrow.png" />
+    <Content Include="images\wishlist-arrow.png" />
+    <Content Include="images\working-hours-icon.png" />
+    <Content Include="js\functions.js" />
+    <Content Include="js\jquery.cycle.all.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="administrator\login.aspx.designer.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administrator\login.aspx.vb">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="administrator\perfil.aspx.designer.vb">
+      <DependentUpon>perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administrator\perfil.aspx.vb">
+      <DependentUpon>perfil.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Cat.aspx.designer.vb">
+      <DependentUpon>Cat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cat.aspx.vb">
+      <DependentUpon>Cat.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="administrator\Default.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="administrator\Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="product.aspx.designer.vb">
+      <DependentUpon>product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="product.aspx.vb">
+      <DependentUpon>product.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="css\US101.svg" />
+    <None Include="css\US101.woff" />
+    <None Include="css\US101d41d.eot" />
+    <None Include="images\Thumbs.db" />
+    <Content Include="administrator\login.aspx" />
+    <Content Include="css\login.css" />
+    <Content Include="css\validationEngine.jquery.css" />
+    <Content Include="images\input-login.png" />
+    <Content Include="js\lib\jquery.validationEngine-en.js" />
+    <Content Include="js\lib\jquery.validationEngine.js" />
+    <Content Include="product.aspx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CAPA_ENTIDAD\CAPA_ENTIDAD.vbproj">
+      <Project>{BED8AADA-F2C7-48E7-A5F8-D16ECA11FC23}</Project>
+      <Name>CAPA_ENTIDAD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CAPA_LOGICA\CAPA_LOGICA.vbproj">
+      <Project>{10627B14-5652-48B4-B3F4-3FBB581E0407}</Project>
+      <Name>CAPA_LOGICA</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1110</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

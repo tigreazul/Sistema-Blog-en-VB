@@ -1,0 +1,12 @@
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\bin\Debug\CAPA_DATOS.dll
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\bin\Debug\CAPA_DATOS.pdb
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\bin\Debug\CAPA_DATOS.xml
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\bin\Debug\CAPA_ENTIDAD.dll
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\bin\Debug\CAPA_ENTIDAD.pdb
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\bin\Debug\CAPA_ENTIDAD.xml
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\obj\Debug\ResolveAssemblyReference.cache
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\obj\Debug\CAPA_DATOS.Resources.resources
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\obj\Debug\CAPA_DATOS.vbproj.GenerateResource.Cache
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\obj\Debug\CAPA_DATOS.dll
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\obj\Debug\CAPA_DATOS.xml
+D:\NetBeans\clasdwe  visual\BLOG_SYS\CAPA_DATOS\obj\Debug\CAPA_DATOS.pdb
